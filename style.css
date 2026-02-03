@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 400px;
+    color: #5D5D7D;
+}
+
+.embrulho {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cont-left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 18%;
+    padding-left: 136px;
+}
+
+.cont-right {
+    background-color: rgba(93,93,125,0.16);
+    display: inline-block;
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+.img-logo {
+    position: relative;
+    top: 25%;
+    right: 130px;
+    
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+    
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 60%;
+    margin: 15px 0;
+    width: 540px;
+}
+
+.btn {
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #9499EA;
+    width: 269px;
+    height: 62px;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.btn:active {
+    opacity: .5;
+}
+
+.link-header {
+    font-size: 28px;
+    line-height: 41px;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+.link-header:nth-child(2) {
+    opacity: .4;
+}
+
+.link-header:hover {
+    opacity: .4;
+}
+
+.link-header:active {
+    opacity: .8;
+}
+
+header {
+    margin: 24px 0 0 57px;
+}
+
+@media screen and (max-width: 900px) {
+    .cont-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cont-right {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    .img-logo {
+        position: static;
+        width: 90%;
+
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        margin: 58px 50px 0 50px;
+        width: auto;
+        text-align: center;
+        font-size: 36px;
+        line-height: 52px;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+    }
+}
